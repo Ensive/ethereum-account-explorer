@@ -1,23 +1,14 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+
+// address 0xfFfa5813ED9a5DB4880D7303DB7d0cBe41bC771F
+// getAccountBalance()
+// getAccountTransactions()
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <div>
+      <header>
+        <h1>Ethereum account explorer</h1>
       </header>
     </div>
   );
