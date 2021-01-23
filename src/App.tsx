@@ -1,17 +1,13 @@
 import React from 'react';
 
-// address 0xfFfa5813ED9a5DB4880D7303DB7d0cBe41bC771F
-// getAccountBalance()
-// getAccountTransactions()
+import AccountContainer from './components/Account';
+import Header from './components/Header';
 
-function App() {
+export default function App() {
   return (
-    <div>
-      <header>
-        <h1>Ethereum account explorer</h1>
-      </header>
-    </div>
+    <>
+      <Header />
+      <AccountContainer />
+    </>
   );
 }
-
-export default App;
